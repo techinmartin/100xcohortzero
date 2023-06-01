@@ -1,0 +1,34 @@
+#title{
+    font-family:'Inter Tight', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #9DB2BF;
+    margin: 35px auto;
+}
+#subtitle{
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+    color: #DDE6ED;
+    margin: -35px auto;
+}
+body{
+    background-color: #27374D;
+    color: #ffffff;
+}
+.navbar{
+    flex-direction: column;
+}
+.sidebar{
+    display: flex;
+}
+.video-container{
+    display: flex;
+    flex-direction: column;
+
+}
+#sidebar-buttons{
+    display: flex;
+}
+.tdpfp{
+    display: flex;
+}
