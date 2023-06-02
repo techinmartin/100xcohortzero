@@ -1,4 +1,4 @@
 # 100xcohortzero
-This is my online repo for my coding journey. Just makes it easier for me to code easily.
+Hi, my name is Martin and I am building a YouTube clone using this repository. My fellow colleagues are also learning how to code and we are building this together so that we understand how to build in the modern world. 
 
-CHANGE
+Check out our new upcoming cohort from our mentor, Siddhanth at 100xengineers.com

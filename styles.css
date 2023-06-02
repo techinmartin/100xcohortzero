@@ -1,19 +1,16 @@
-#title{
+.logo{
     font-family:'Inter Tight', sans-serif;
-    font-size: 50px;
-    text-align: center;
+    font-size: 20;
     color: #9DB2BF;
-    margin: 35px auto;
 }
-#subtitle{
-    font-family: 'Inter Tight', sans-serif;
-    text-align: center;
-    color: #DDE6ED;
-    margin: -35px auto;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 body{
-    background-color: #27374D;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #1d1d1d;
 }
 .navbar{
     flex-direction: column;
