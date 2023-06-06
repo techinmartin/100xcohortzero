@@ -1,46 +1,109 @@
 <!DOCTYPE html>
 <head>
-    <title>CodeTube, built by first time coders</title>
+    <title>U2be™</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta name="description" content="Why share videos, when you can dump them?">
+    <meta name="keywords" content="YouTube, Videos, Dump">
+    <meta name="author" content="Martin Noronha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">
-                <h1>CodeTube™</h1>
-            </div>
-            <div class="search">
-                <input type="text" placeholder="Search anything...">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="U2be">
+                <span>U2be™</span>
+            </a>
+            <div class="search-box">
+                <input type="text" placeholder="Search literally anything...">
                 <button type="submit">Search!</button>
             </div>
             <div class="profile">
-                <img src="pfp.jpg" alt="User Profile">
-                <span>Username</span>
+                <div class="dropdown">
+                <img class="dropbtn" src="assets/pfp.jpg" alt="Dropdown">
+                    <div class="dropdown-content">
+                      <a href="#">My Account</a>
+                      <a href="#">Theme</a>
+                      <a href="#">Logout</a>
+                </div>
             </div>
         </nav>
     </header>
+<div class="container">
     <section class="sidebar">
-        <aside id="sidebar-buttons">
-            <ol>Your Subscriptions</ol>
-            <ol>Movies</ol>
-            <ol>TV Shows</ol>
+        <aside id="sidebar-buttons">            
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Subscriptions</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">History</a></li>
+                </ul>
         </aside>
     </section>
     <section class="video-container">
-        <div class="video wrapper">
-            <div id="frame">
-                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/123BE/production/_129268647_trump-index-getty.jpg" width="200px" height="200px"></div>
-            </div>
-            <div id="tdpfp">
-                <h2>This is a video title</h2>
-                <h3>Channel Name</h3>
-                <h4>20000 views</h4>
-                <img src=""></div>
-            </div>
+        <div class="video">
+            <img src="assets/video1.jpeg" alt="Video 1">
+              <h2>Video Title 1</h2>
+              <h3>MrBeast</h3>
+              <h4>20000 views</h4>
+        </div>
+        <div class="video">
+            <img src="assets/video2.jpeg" alt="Video 2">
+              <h2>Video Title 2</h2>
+              <h3>GaryVee</h3>
+              <h4>15000 views</h4>
+        </div>
+        <div class="video">
+            <img src="assets/video3.jpeg" alt="Video 3">
+              <h2>Video Title 3</h2>
+              <h3>Netflix</h3>
+              <h4>12000 views</h4>
+        </div>
+        <div class="video">
+            <img src="assets/video4.jpeg" alt="Video 1">
+              <h2>Video Title 4</h2>
+              <h3>Linus Tech Tips</h3>
+              <h4>20000 views</h4>
+        </div>
+        <div class="video">
+            <img src="assets/video5.jpeg" alt="Video 2">
+              <h2>Video Title 5</h2>
+              <h3>MKBHD</h3>
+              <h4>15000 views</h4>
+        </div>
+        <div class="video">
+            <img src="assets/video6.jpeg" alt="Video 3">
+              <h2>Video Title 6</h2>
+              <h3>David Dobrik</h3>
+              <h4>12000 views</h4>
+        </div>
+        <div class="video">
+            <img src="assets/video7.jpeg" alt="Video 1">
+              <h2>Video Title 7</h2>
+              <h3>Ali Abdaal</h3>
+              <h4>20000 views</h4>
+        </div>
+        <div class="video">
+            <img src="assets/video8.jpeg" alt="Video 2">
+              <h2>Video Title 8</h2>
+              <h3>AevyTV</h3>
+              <h4>15000 views</h4>
+        </div>
+        <div class="video">
+            <img src="assets/video9.jpeg" alt="Video 3">
+              <h2>Video Title 9</h2>
+              <h3>Nas Daily</h3>
+              <h4>12000 views</h4>
         </div>
     </section>
+</div>
     <footer>
-        <p>2023, CodeTube, built by first-time coders.</p>
+        <p class="footer">2023, U2be™, built by first-time coders.</p>
     </footer>
 </body>
 </html>
