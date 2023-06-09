@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <title>U2be™ Video Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Why share videos, when you can dump them?">
+    <meta name="keywords" content="YouTube, Videos, Dump">
+    <meta name="author" content="Martin Noronha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <header>
+        <nav>
+            <button id="sidebar-toggle" class="sidebar-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="U2be">
+                <span>U2be™</span>
+            </a>
+            <div class="search-box">
+                <input type="text" placeholder="Search literally anything...">
+                <button type="submit">Search!</button>
+            </div>
+            <div class="profile">
+                <div class="dropdown">
+                <img class="dropbtn" src="assets/pfp.jpg" alt="Dropdown">
+                    <div class="dropdown-content">
+                      <a href="#">My Account</a>
+                      <a href="#">Theme</a>
+                      <a href="#">Logout</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+<div class="container">
+    <section class="sidebar">
+        <aside id="sidebar-buttons">            
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-fire"></i> Trending</a></li>
+                    <li><a href="#"><i class="fas fa-play-circle"></i> Subscriptions</a></li>
+                    <li><a href="#"><i class="fas fa-folder"></i> Library</a></li>
+                    <li><a href="#"><i class="fas fa-history"></i> History</a></li>
+                    <li><a href="#"><i class="fas fa-thumbs-up"></i> Liked Videos</a></li>
+                    <li><a href="#"><i class="fas fa-clock"></i> Watch Later</a></li>
+                    <li><a href="#"><i class="fas fa-list"></i> Playlists</a></li>
+                </ul>
+        </aside>
+    </section>
+    <main>
+        <div class="videoplayer-container">
+            <video id="video-player" controls>
+            <source src="assets/video.mp4" type="video/mp4">
+            <!-- Add additional source tags for other video formats -->
+            </video>
+        </div>
+    
+        <div class="video-details">
+            <h2>Video Title</h2>
+            <p>Description of the video goes here.</p>
+        </div>
+    
+        <div class="video-comments">
+            <h3>Comments</h3>
+                <div class="comment">
+                <img src="assets/pfp.jpg" alt="User Avatar">
+                <div class="comment-details">
+                <h4>Martin Noronha</h4>
+                <div class="comment-box">
+                    <textarea id="comment-input" placeholder="Leave a comment"></textarea>
+                    <button id="comment-btn">Submit</button>
+                  </div>
+                </div>
+                </div>
+      <!-- Add more comments as needed -->
+            </div>
+        </main>
+        <footer>
+            <p class="footer">2023, U2be™, built by first-time coders.</p>
+        </footer>
+    </body>
+</html>
